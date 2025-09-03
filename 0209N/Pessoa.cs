@@ -4,9 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0209N
+namespace heranca
 {
     internal class Pessoa
     {
+
+        public string Nome;
+        private int CPF;
+        public string Genero;
+        public string EstadoCivil;
+        public DateTime Idade;
+        private string Endereco;
+
     }
 }

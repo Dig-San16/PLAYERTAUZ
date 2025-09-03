@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace heranca
 {
-    internal class Program
+    internal class Supervisor: Funcionario
     {
-        static void Main(string[] args)
-        {
+        public string Equipe;
+        public int Numero_Funcionarios;
+        public double Bonificacao;
 
-
-
-        }
     }
 }
